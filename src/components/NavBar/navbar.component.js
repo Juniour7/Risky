@@ -1,6 +1,8 @@
 import React from "react";
 import { BiMenu } from "react-icons/bi";
 import { BsFillTelephoneFill, BsInstagram } from "react-icons/bs";
+import {FaFacebookF} from "react-icons/fa";
+import { FaMessage } from "react-icons/fa6";
 //import { HiEnvelope } from "react-icons/hi";
 
 const NavSm = () => {
@@ -34,16 +36,18 @@ const NavMd = () => {
                         className="w-full h-full" 
                         />
                     </div>
-                    <div className="flex justify-center gap-2">
+                    <div className="flex justify-center gap-2 hover:text-grey-400">
                         <BsFillTelephoneFill className="w-full h-full" />
                         <BsInstagram className="w-full h-full"/>
+                        <FaFacebookF className="w-full h-full" />
+                        <FaMessage className="w-full h-full" />
                     </div>
                 </div>
                 <div className="flex justify-center gap-3 text-sm mt-4">
-                    <h5>ABOUT US</h5>
-                    <h5>OUR MENU</h5>
-                    <h5>IN THE PRESS</h5>
-                    <h5>CONTACT</h5>
+                    <h5 className="hover:text-gray-400 hover:cursor-pointer" >ABOUT US</h5>
+                    <h5 className="hover:text-gray-400 hover:cursor-pointer" >OUR MENU</h5>
+                    <h5 className="hover:text-gray-400 hover:cursor-pointer" >IN THE PRESS</h5>
+                    <h5 className="hover:text-gray-400 hover:cursor-pointer" >CONTACT</h5>
             </div>
             </header>
         </>

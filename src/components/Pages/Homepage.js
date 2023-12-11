@@ -9,8 +9,8 @@ const HomePage = () => {
     return (
         <>
             <NavBar />
-            <div>
-                <div className="h-96 w-full px-2">
+            <div className="mt-11">
+                <div className="h-96 w-full px-3">
                     <img 
                     src="https://images.squarespace-cdn.com/content/v1/5a127d79017db2e2b0be7947/1512578370066-UXGQF7UA8VGJ69073750/tin+roof+salad.jpg?format=2500w"
                     alt="Hero Image"
@@ -24,7 +24,7 @@ const HomePage = () => {
                     className="w-full h-full"
                     />
                 </div>
-                <div className=" mt-11 mx-4 text-center md:mx-5 my-4 ">
+                <div className=" mt-8 mx-4 text-center md:mx-5 my-4 ">
                     <h1 className="text-xl font-bold mb-3">WELCOME TO TIN ROOF CAFES</h1>
                     <h3 className="text-sm">FRESH FOOD IN FRESH AIR</h3>
                     <p className="text-md text-center">Our boutique, outdoor cafés offer a healthy range of salads, sandwiches and smoothies. We like life away from malls because we prefer quiet, green spaces.</p>
@@ -84,7 +84,7 @@ const HomePage = () => {
                         <p className="text-gray-500 leading-7">Join our food revolution that offers you a peaceful, outdoor space to eat deliciously healthy meals and snacks.</p>
                         <p className="text-gray-500 leading-7">From superfood salads, juicy burgers,fresh wraps & sandwiches, there is a variety of mouth-watering goodness to try. Here's a little taster...</p>
                     </div>
-                    <div className="mt-9 mb-9 md:flex md:mx-auto gap-3">
+                    <div className="mt-9 mb-9 md:flex md:items-center md:mx-auto ">
                         <div className="w-80 h-96 mx-auto md:w-64 md:h-64">
                             <img
                             src="https://images.squarespace-cdn.com/content/v1/5a127d79017db2e2b0be7947/1513244777210-SPIB2BEXDR06V1BP8YLB/Tin+Roof+Cafe+sample+menu.png?format=1500w"
@@ -92,8 +92,8 @@ const HomePage = () => {
                             className="w-full h-full"
                         />
                         </div>
-                        <div className="mb-4">
-                            <button className="block px-4 py-2 border-solid border-2 border-black hover:bg-black hover:text-white">VIEW OUR FULL MENU</button>
+                        <div className="sm:mb-4 sm:mt-8 content-center">
+                            <button className="block px-4 py-2 border-solid border-2 border-black hover:bg-black hover:text-white mb-6">VIEW OUR FULL MENU</button>
                             <button className="block px-4 py-2 border-solid border-2 border-black hover:bg-black hover:text-white">CONTACT US TO BOOK</button>
                         </div>
                     </div>
@@ -105,7 +105,7 @@ const HomePage = () => {
                         className="w-full h-full"
                         />
                     </div>
-                    <div className="">
+                    <div className="md:h-full">
                         <div className="mb-2">
                             <img
                             src="https://images.squarespace-cdn.com/content/v1/5a127d79017db2e2b0be7947/1512474650045-FFVE9CWL64DEM47UPR70/kids+on+swing+at+Tin+Roof+Cafe.jpg?format=750w"
@@ -138,13 +138,13 @@ const HomePage = () => {
                 <div className="mt-9 leading-7">
                     <h4 className="text-gray-700 text-center">KAREN & LANGATA, NAIROBI, KENYA +254 (0)719 606 621 EAT@TINROOF.CAFE</h4>
                     <h4 className="text-gray-700 text-center">HOURS Mon 08:00 to 17:30 Tue 08:00 to 17:30 Wed 08:00 to 17:30 Thu 08:00 to 17:30 Fri 08:00 to 17:30 Sat 08:00 to 17:30 Sun 08:00 to 17:30</h4>
-                    <h3 className="font-bold text-md text-center">FREQUENTLY ASKED QUESTIONS#LIFEOUTSIDETHEMALL</h3>
+                    <h3 className="text-md text-center">FREQUENTLY ASKED QUESTIONS#LIFEOUTSIDETHEMALL</h3>
                 </div>
                 <div className="mt-20">
                     <h1 className="text-gray-500 text-center taxt-xlg">SIGN UP TO OUR CLEAN EATING NEWSLETTER.</h1>
                     <h2 className="text-gray-500 text-center">We won't bombard you with spam, it'll be far more delicious than that.</h2>
-                    <div className="mx-auto mt-9 mb-9 md:flex md:justify-center gap-3">
-                        <input className="border-solid border-3 border-black" type="text" placeholder="Email Address" />
+                    <div className="mt-9 mb-14 flex justify-center gap-3">
+                        <input className="py-4 px-6 border-solid border-2 border-gray-500" type="text" placeholder="Email Address" />
                         <button className="sm:block px-11 py-3 border-solid border-2 border-black hover:bg-black hover:text-white rounded-sm text-xlg text-gray-500">SIGN UP</button>
                     </div>
                 </div>
